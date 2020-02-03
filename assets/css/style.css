@@ -1,3 +1,86 @@
-body {
-    background-color: aqua;
-}
+        body {
+            background-image: url(https://s3.amazonaws.com/noupe/2009/10/baroque-pattern.jpg);
+        }
+        
+        .background {
+            background-color: rgb(51, 89, 90);
+            margin: auto;
+            width: 70%;
+            color: snow;
+            border: 3px solid rgb(227, 193, 255)
+        }
+        
+        h1 {
+            color: royalblue;
+            text-shadow: 2px 2px slategray;
+        }
+        
+        #picture {
+            width: 150px;
+            height: 150px;
+            float: left;
+            border: 3px solid gold
+        }
+        
+        .huh {
+            width: 100%;
+            margin-right: 100px;
+            background-color: grey;
+        }
+        
+        .navname {
+            text-align: center;
+            width: 132px;
+            height: 46px;
+            background-color: salmon;
+            color: black;
+            border: 3px solid blueviolet;
+            position: relative;
+            margin: 5px 240px;
+        }
+        
+        hr.rounded {
+            border: 1px solid rgb(255, 255, 255);
+            position: relative;
+            bottom: -2px;
+            left: -115px;
+            width: 1000px;
+        }
+        
+        .wrapper {
+            width: 1024px;
+            margin: 40px auto;
+        }
+        /* contact page starts */
+        
+        .contactbox {
+            background-color: rgb(51, 89, 90);
+            margin: auto;
+            width: 70%;
+            color: snow;
+            margin-top: 30px;
+            border: 3px solid rgb(222, 185, 253)
+        }
+        /* portfolio page */
+        
+        .portfoliobox {
+            background-color: rgb(51, 89, 90);
+            margin: auto;
+            width: 50%;
+            color: snow;
+            margin-top: 30px;
+            border: 3px solid rgb(222, 185, 253)
+        }
+        
+        .picspot {
+            vertical-align: middle;
+            border-style: double;
+        }
+        
+        .ya {
+            margin-left: 31px;
+        }
+        
+        .ye {
+            margin-left: 65px;
+        }
