@@ -7,7 +7,7 @@
             margin: auto;
             width: 70%;
             color: snow;
-            border: 3px solid rgb(227, 193, 255)
+            border: 3px solid rgb(227, 193, 255);
         }
         
         h1 {
@@ -20,6 +20,12 @@
             height: 150px;
             float: left;
             border: 3px solid gold
+        }
+        
+        #findtunepic {
+            width: 350px;
+            height: 250px;
+            margin-right: 8px
         }
         
         .huh {
