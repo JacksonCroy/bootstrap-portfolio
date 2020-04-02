@@ -1,18 +1,24 @@
         body {
-            background-image: url(https://s3.amazonaws.com/noupe/2009/10/baroque-pattern.jpg);
+            background-image: url(https://s3.amazonaws.com/noupe/2009/10/pattern-34.jpg);
         }
         
         .background {
-            background-color: rgb(51, 89, 90);
+            background-color: #1d1c16;
             margin: auto;
             width: 70%;
             color: snow;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             border: 3px solid rgb(227, 193, 255);
         }
         
         h1 {
-            color: royalblue;
+            color: #000033;
             text-shadow: 2px 2px slategray;
+            margin-top: 2%;
+        }
+        
+        a {
+            color: aliceblue;
         }
         
         #picture {
@@ -28,9 +34,22 @@
             margin-right: 8px
         }
         
+        #pokePic {
+            width: 400px;
+            height: 290px;
+            margin-right: 8px;
+        }
+        
         #wdb {
             width: 500px;
             height: 250px;
+        }
+        
+        .logos {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
         }
         
         .huh {
@@ -43,19 +62,19 @@
             text-align: center;
             width: 132px;
             height: 46px;
-            background-color: salmon;
+            /* background-color: #330000;
             color: black;
-            border: 3px solid blueviolet;
+            text-shadow: 2px 2px #FF0000; */
+            border: 1px solid rgb(255, 255, 255);
             position: relative;
             margin: 5px 240px;
         }
         
         hr.rounded {
             border: 1px solid rgb(255, 255, 255);
-            position: relative;
             bottom: -2px;
-            left: -115px;
-            width: 1000px;
+            /* left: -115px; */
+            width: 100%;
         }
         
         .wrapper {
@@ -65,17 +84,35 @@
         /* contact page starts */
         
         .contactbox {
-            background-color: rgb(51, 89, 90);
+            background-color: #1d1c16;
             margin: auto;
             width: 70%;
             color: snow;
             margin-top: 30px;
             border: 3px solid rgb(222, 185, 253)
         }
+        
+        .logo {
+            width: 10%;
+            height: 10%;
+            float: left;
+            left: 112px;
+            top: 123px;
+            position: absolute;
+        }
+        
+        .logoTwo {
+            width: 70px;
+            height: 70px;
+            float: left;
+            left: 135px;
+            top: 169px;
+            position: absolute;
+        }
         /* portfolio page */
         
         .portfoliobox {
-            background-color: rgb(51, 89, 90);
+            background-color: #1d1c16;
             margin: auto;
             width: 222%;
             color: snow;
